@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<svg width="639.9999999999999" height="480.00000000000006" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="mcircle" orient="auto" markerUnits="strokeWidth" id="se_marker_start_svg_5">
+   <circle stroke-width="10" stroke="#000000" fill="#000000" cy="50" cx="50" r="30"/>
+  </marker>
+  <marker refY="50" refX="50" markerHeight="5" markerWidth="5" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_5">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" height="60" width="180" y="54" x="157" stroke-width="5" stroke="#000000" fill="#FF0000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Cursive" font-size="24" id="svg_2" y="84" x="197" stroke-width="0" stroke="#000000" fill="#000000">Value</text>
+  <rect id="svg_3" height="25" width="68" y="187" x="225" stroke-width="5" stroke="#000000" fill="#7f7f7f"/>
+  <text stroke="#000000" transform="matrix(0.660714 0 0 0.660714 46.8214 89.9107)" xml:space="preserve" text-anchor="middle" font-family="Monospace" font-size="24" id="svg_4" y="171.459456" x="315.837842" stroke-width="0" fill="#ffffff">Uses</text>
+  <line stroke="#000000" marker-end="url(#se_marker_end_svg_5)" marker-start="url(#se_marker_start_svg_5)" id="svg_5" y2="258.000001" x2="408" y1="192" x1="384" stroke-width="5" fill="none"/>
+ </g>
+</svg>
