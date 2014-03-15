@@ -73,6 +73,7 @@ We have 8 tags for disposal
 - full stop: `S`
 
 Originally modelled in Haskell (+`QuickCheck`)
+
 Now in LLVM repo (on a branch), with automatic algorithm selection
 
 Benefits
@@ -92,10 +93,18 @@ Comparison
 | &Delta; |                  `32104332132210211011000` |
 
 
-# Further opportunities
+# Further Opportunities
 
 - unroll tag initialisation loops
 - distance relative to stopped frame (microoptimization)
 - `rol` (rotate) instructions with condition flags
-- examining resultant assemby (on all archs!)
- 
+- examining resultant assembly (on all archs!)
+
+Questions?
+=========== 
+
+
+Image credits:
+
++
++
