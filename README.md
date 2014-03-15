@@ -22,6 +22,8 @@ Use has 4 pointers
 - seen 12% space savings on big C++ programs
 - landed <date> in the LLVM codebase
 
+![New Scheme](https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/new.svg)
+
 # How it Works
 
 Employ a _framed serial code_ in consecutive `Use`s
