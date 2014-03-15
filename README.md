@@ -11,7 +11,7 @@ _Weekend LLVM-hobbyist_
 # Situation Before 2008
 
 <picture : array of Uses embedded/pointered in User>
-Use has 4 pointers
+`Use` has 4 pointers
 
 ![Before 2008](https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/pre2008.svg)
 
