@@ -8,7 +8,7 @@ EuroLLVM 2014 &mdash; Edinburgh
 Gabor Greif<br>
 _Weekend LLVM-hobbyist_
 
-# Situation Before 2008
+# The Situation Before 2008
 
 <picture : array of Uses embedded/pointered in User>
 `Use` has 4 pointers
