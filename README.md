@@ -27,7 +27,7 @@ Use has 4 pointers
 # How it Works
 
 Employ a _framed serial code_ in consecutive `Use`s
-- `S` --> full stop
+- `S` &rarr; full stop
 - `s` --> stop
 - `0`, `1` --> binary digits
 
