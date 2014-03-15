@@ -28,8 +28,8 @@ Use has 4 pointers
 
 Employ a _framed serial code_ in consecutive `Use`s
 - `S` &rarr; full stop
-- `s` --> stop
-- `0`, `1` --> binary digits
+- `s` &rarr; stop
+- `0`, `1` &rarr; binary digits
 
 Read off binary digits to obtain distance to `User`
 
