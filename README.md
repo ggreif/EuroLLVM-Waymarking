@@ -10,7 +10,7 @@ EuroLLVM-Waymarking
 Gabor Greif
 Weekend LLVM-hobbyist
 
-# Situation before 2005
+# Situation before 2008
 
 <picture : array of Uses embedded/pointered in User>
 Use has 4 pointers
