@@ -6,7 +6,7 @@ EuroLLVM 2014 &mdash; Edinburgh
 (a.k.a. Son of `Use`-Diet)
 
 Gabor Greif<br>
-Weekend LLVM-hobbyist
+_Weekend LLVM-hobbyist_
 
 # Situation before 2008
 
