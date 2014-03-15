@@ -75,7 +75,8 @@ We have 8 tags for disposal
 Originally modelled in Haskell (+QuickCheck)
 Now in LLVM repo (on a branch), with automatic algorithm selection
 
-# Benefits
+Benefits
+===========
 
 - stop tags allow longer hops while hunting down the framed digits
 - 2-bits at a time
@@ -89,16 +90,6 @@ Comparison
 | 3       |                  `qrs101qrs30qrs13qrs3rsS` |
 | acc.    |                  `55555544455444443332221` |
 | &Delta; |                  `32104332132210211011000` |
-
-
-"1s100000s11010s10100s1111s1010s110s11s1S"
-(10)987659876587654654343221
-
-"qrs101qrs30qrs13qrs3rsS"
- 55555544455444443332221
-
-210211011000
-
 
 
 # Further opportunities
