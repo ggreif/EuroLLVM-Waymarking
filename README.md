@@ -18,7 +18,7 @@ Use has 4 pointers
 # `Use`-Diet
 
 - drop pointer to `User`
-- make `prev` pointer tagged (2-bits, since 4-byte aligned)
+- make `Prev` pointer tagged (2-bits, since always 4-byte aligned)
 - seen 12% space savings on big C++ programs
 - landed <date> in the LLVM codebase
 
