@@ -82,6 +82,15 @@ Now in LLVM repo (on a branch), with automatic algorithm selection
 
 Comparison
 
+| tag-bits | frames |
+| ------- | ---- |
+| 2 | `1s100000s11010s10100s1111s1010s110s11s1S` |
+| acc | `(10)987659876587654654343221` |
+| 3 | `qrs101qrs30qrs13qrs3rsS` |
+| acc | `(10)987659876587654654343221` |
+| &Delta; | `210211011000` |
+
+
 "1s100000s11010s10100s1111s1010s110s11s1S"
 (10)987659876587654654343221
 
@@ -91,7 +100,6 @@ Comparison
 210211011000
 
 
-<diffs>
 
 # Further opportunities
 
