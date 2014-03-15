@@ -8,8 +8,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="639.9999999999999"
-   height="480.00000000000006"
+   width="389.34296"
+   height="406.45129"
    id="svg2985"
    version="1.1"
    inkscape:version="0.48.4 r9943 custom"
@@ -19,7 +19,7 @@
      y="0"
      xlink:href="#rect4466"
      id="use4476"
-     transform="matrix(-1,0,0,-1,395.19283,527.21076)"
+     transform="matrix(-1,0,0,-1,378.40975,401.97392)"
      width="640"
      height="480" />
   <metadata
@@ -47,20 +47,24 @@
      id="namedview3004"
      showgrid="false"
      inkscape:zoom="1.571875"
-     inkscape:cx="319.36382"
-     inkscape:cy="214.55268"
+     inkscape:cx="310.97228"
+     inkscape:cy="203.62239"
      inkscape:window-x="463"
      inkscape:window-y="133"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2985" />
+     inkscape:current-layer="svg2985"
+     fit-margin-top="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     fit-margin-left="10" />
   <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
   <rect
-     style="fill:url(#linearGradient4474);fill-opacity:1"
+     style="fill:url(#linearGradient4494);fill-opacity:1"
      id="rect4466"
      width="54.672646"
      height="104.46636"
-     x="-106.90583"
-     y="-315.83856"
+     x="-98.51429"
+     y="-253.22015"
      transform="scale(-1,-1)" />
   <defs
      id="defs2987">
@@ -88,19 +92,31 @@
          style="fill:#000000">
         <circle
            id="circle4044"
-           r="0.8"
+           r="0.80000001"
            cy="0"
-           cx="3" />
+           cx="3"
+           sodipodi:cx="3"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
         <circle
            id="circle4046"
-           r="0.8"
+           r="0.80000001"
            cy="0"
-           cx="6.5" />
+           cx="6.5"
+           sodipodi:cx="6.5"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
         <circle
            id="circle4048"
-           r="0.8"
+           r="0.80000001"
            cy="0"
-           cx="10" />
+           cx="10"
+           sodipodi:cx="10"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
       </g>
     </marker>
     <marker
@@ -117,61 +133,76 @@
         <circle
            d="M 3.8,0 C 3.8,0.44182781 3.4418278,0.80000001 3,0.80000001 2.5581722,0.80000001 2.2,0.44182781 2.2,0 c 0,-0.44182781 0.3581722,-0.80000001 0.8,-0.80000001 0.4418278,0 0.8,0.3581722 0.8,0.80000001 z"
            id="circle4053"
-           r="0.8"
+           r="0.80000001"
            cy="0"
-           cx="3" />
+           cx="3"
+           sodipodi:cx="3"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
         <circle
            d="M 7.3,0 C 7.3,0.44182781 6.9418278,0.80000001 6.5,0.80000001 6.0581722,0.80000001 5.7,0.44182781 5.7,0 c 0,-0.44182781 0.3581722,-0.80000001 0.8,-0.80000001 0.4418278,0 0.8,0.3581722 0.8,0.80000001 z"
            id="circle4055"
-           r="0.8"
+           r="0.80000001"
            cy="0"
-           cx="6.5" />
+           cx="6.5"
+           sodipodi:cx="6.5"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
         <circle
            d="M 10.8,0 C 10.8,0.44182781 10.441828,0.80000001 10,0.80000001 9.5581722,0.80000001 9.2,0.44182781 9.2,0 c 0,-0.44182781 0.3581722,-0.80000001 0.8,-0.80000001 0.441828,0 0.8,0.3581722 0.8,0.80000001 z"
            id="circle4057"
-           r="0.8"
+           r="0.80000001"
            cy="0"
-           cx="10" />
+           cx="10"
+           sodipodi:cx="10"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
       </g>
     </marker>
     <marker
        inkscape:stockid="DotM"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="DotM"
        style="overflow:visible">
       <path
          id="path3871"
-         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
-         transform="scale(0.4) translate(7.4, 1)" />
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="Arrow1Mend"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="Arrow1Mend"
-       style="overflow:visible;">
+       style="overflow:visible">
       <path
          id="path3816"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        inkscape:stockid="DotS"
        orient="auto"
-       refY="0.0"
-       refX="0.0"
+       refY="0"
+       refX="0"
        id="DotS"
        style="overflow:visible">
       <path
          id="path3874"
-         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
-         transform="scale(0.2) translate(7.4, 1)" />
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.2,0,0,0.2,1.48,0.2)"
+         inkscape:connector-curvature="0" />
     </marker>
     <marker
        refY="50"
@@ -184,13 +215,15 @@
        markerUnits="strokeWidth"
        id="se_marker_start_svg_5">
       <circle
-         stroke-width="10"
-         stroke="#000000"
-         fill="#000000"
          cy="50"
          cx="50"
          r="30"
-         id="circle2990" />
+         id="circle2990"
+         sodipodi:cx="50"
+         sodipodi:cy="50"
+         sodipodi:rx="30"
+         sodipodi:ry="30"
+         style="fill:#000000;stroke:#000000;stroke-width:10" />
     </marker>
     <marker
        refY="50"
@@ -203,48 +236,47 @@
        markerUnits="strokeWidth"
        id="se_marker_end_svg_5">
       <path
-         stroke-width="10"
-         stroke="#000000"
-         fill="#000000"
-         d="m100,50l-100,40l30,-40l-30,-40z"
-         id="path2993" />
+         d="M 100,50 0,90 30,50 0,10 z"
+         id="path2993"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke:#000000;stroke-width:10" />
     </marker>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4468"
-       id="linearGradient4474"
-       x1="52.233185"
-       y1="263.60539"
-       x2="106.90583"
-       y2="263.60539"
+       id="linearGradient4494"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-159.13902,-527.21078)" />
+       gradientTransform="translate(-150.74748,-464.59236)"
+       x1="52.233185"
+       y1="263.60538"
+       x2="106.90583"
+       y2="263.60538" />
   </defs>
   <rect
      style="fill:#ff0000;stroke:#000000;stroke-width:5"
-     x="146.18489"
-     y="75.118416"
+     x="137.79335"
+     y="12.5"
      width="180"
      height="60"
      id="svg_1" />
   <text
      style="font-size:24px;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0;font-family:Cursive"
-     x="189.05484"
-     y="121.19017"
+     x="180.6633"
+     y="58.571754"
      id="svg_2"
      font-size="24"
      xml:space="preserve">Value</text>
   <rect
      style="fill:#7f7f7f;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     x="246.32838"
-     y="87.006317"
+     x="237.93684"
+     y="24.387901"
      width="68"
      height="25"
      id="svg_3" />
   <text
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace"
-     x="276.82825"
-     y="103.20268"
+     x="268.43671"
+     y="40.584267"
      id="svg_4"
      font-size="24"
      xml:space="preserve">Uses</text>
@@ -252,59 +284,59 @@
      id="rect3793"
      height="105.07423"
      width="180"
-     y="211.27354"
-     x="107.63677"
+     y="148.65512"
+     x="99.245232"
      style="fill:#ccffaa;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      font-size="24"
      id="text3795"
-     y="256.83347"
-     x="141.60016"
+     y="194.21506"
+     x="133.20862"
      style="font-size:24px;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0;font-family:Cursive">Use</text>
   <rect
      id="rect3797"
      height="25"
      width="68"
-     y="251.02396"
-     x="202.61549"
+     y="188.40555"
+     x="194.22395"
      style="fill:#7f7f7f;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      font-size="24"
      id="text3799"
-     y="268.36832"
-     x="229.67027"
+     y="205.74991"
+     x="221.27873"
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace">Prev</text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
-     d="M 306.09013,98.626323 111.91399,204.73307"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none"
+     d="M 297.69859,36.007907 103.52245,142.11465"
      id="path3801"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
-     d="M 260.01794,262.70616 245.75888,115.72167"
+     d="M 251.6264,200.08774 237.36734,53.103254"
      id="path4633"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <rect
      style="fill:#7f7f7f;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     x="202.61549"
-     y="284.56421"
+     x="194.22395"
+     y="221.9458"
      width="68"
      height="25"
      id="rect5015" />
   <text
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace"
-     x="229.67027"
-     y="301.90857"
+     x="221.27873"
+     y="239.29016"
      id="text5017"
      font-size="24"
      xml:space="preserve">Next</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#InfiniteLineStart);marker-end:url(#InfiniteLineEnd)"
-     d="m 72.32287,211.22869 251.40808,0"
+     d="m 63.931332,148.61027 251.408078,0"
      id="path5019"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
@@ -313,54 +345,54 @@
      y="0"
      xlink:href="#path5019"
      id="use5426"
-     transform="translate(-0.43049327,105.18386)"
+     transform="translate(-0.43049329,105.18386)"
      width="640"
      height="480" />
   <rect
      id="rect5428"
      height="60"
      width="180"
-     y="369.69507"
-     x="38.183853"
+     y="307.07666"
+     x="29.792315"
      style="fill:#5555ff;stroke:#000000;stroke-width:5" />
   <text
      xml:space="preserve"
      font-size="24"
      id="text5430"
-     y="415.76682"
-     x="81.053802"
+     y="353.14841"
+     x="72.662262"
      style="font-size:24px;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0;font-family:Cursive">User</text>
   <rect
      id="rect5432"
      height="25"
      width="68"
-     y="381.58298"
-     x="138.32735"
+     y="318.96457"
+     x="129.93581"
      style="fill:#7f7f7f;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      font-size="24"
      id="text5434"
-     y="398.92731"
-     x="179.15906"
+     y="336.3089"
+     x="170.76752"
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace">Uses</text>
   <rect
      id="rect3028"
      height="25"
      width="68"
-     y="284.56421"
-     x="126.27354"
+     y="221.9458"
+     x="117.882"
      style="fill:#7f7f7f;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      font-size="24"
      id="text3030"
-     y="301.90857"
-     x="152.75548"
+     y="239.29016"
+     x="144.36394"
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace">User</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
-     d="M 148.66368,393.32735 19.515695,321.57848"
+     d="M 140.27214,330.70893 11.124157,258.96006"
      id="path3034"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
@@ -368,19 +400,19 @@
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path4264"
-     d="m 259.44395,296.24641 15.49775,87.3231"
-     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-mid:none;marker-end:url(#Arrow1Mend)" />
+     d="m 251.05241,233.62799 15.49775,87.3231"
+     style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-mid:none;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none" />
   <rect
      style="fill:#7f7f7f;stroke:#000000;stroke-width:2.87466407;stroke-miterlimit:4;stroke-dasharray:none"
-     x="202.55283"
-     y="217.70233"
+     x="194.16129"
+     y="155.08392"
      width="62.125336"
      height="25.125336"
      id="rect4478" />
   <text
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace"
-     x="229.09743"
-     y="235.10936"
+     x="220.70589"
+     y="172.49094"
      id="text4480"
      font-size="24"
      xml:space="preserve">Val</text>
@@ -388,19 +420,19 @@
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path4484"
-     d="M 183.03445,295.85325 41.128747,362.96154"
+     d="M 174.64291,233.23483 32.737209,300.34312"
      style="fill:none;stroke:#000000;stroke-width:0.96535736px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)" />
   <rect
      style="fill:#ccffaa;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
-     x="276.73593"
-     y="390.55161"
+     x="268.34439"
+     y="327.9332"
      width="108.99855"
      height="66.518105"
      id="rect4486" />
   <text
      style="font-size:24px;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0;font-family:Cursive"
-     x="329.91031"
-     y="436.8732"
+     x="321.51877"
+     y="374.25479"
      id="text4488"
      font-size="24"
      xml:space="preserve">Use…</text>
@@ -408,6 +440,6 @@
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path4490"
-     d="M 250.4752,228.98847 147.15053,141.16899"
+     d="M 242.08366,166.37005 138.75899,78.550574"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)" />
 </svg>
