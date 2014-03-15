@@ -8,7 +8,7 @@ EuroLLVM 2014 &mdash; Edinburgh
 Gabor Greif<br>
 _Weekend LLVM-hobbyist_
 
-# Situation before 2008
+# Situation Before 2008
 
 <picture : array of Uses embedded/pointered in User>
 Use has 4 pointers
@@ -64,7 +64,7 @@ Clearly I was in need of some alien technology!
 
 Alien tricks from Mars! :-)
 
-# Son of `Use`-Diet: 3-bits encoding
+# Son of `Use`-Diet: 3-bits Encoding
 
 We have 8 tags for disposal
 
