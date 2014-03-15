@@ -1,4 +1,4 @@
-2014 EuroLLVM Edinburgh
+EuroLLVM 2014 &mdash; Edinburgh
 =========================
 
 3-bit Waymarking
