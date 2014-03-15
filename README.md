@@ -20,7 +20,7 @@ Use has 4 pointers
 - drop pointer to `User`
 - make `Prev` pointer tagged (2-bits, since always 4-byte aligned)
 - seen 12% space savings on big C++ programs
-- landed <date> in the LLVM codebase
+- landed <date> in the LLVM codebase: May 2008
 
 ![New Scheme](https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/new.svg)
 
