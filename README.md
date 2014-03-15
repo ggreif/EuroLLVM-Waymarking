@@ -1,7 +1,5 @@
-EuroLLVM-Waymarking
-===================
-
-# 2014 EuroLLVM Edinburgh
+2014 EuroLLVM Edinburgh
+=========================
 
 3-bit Waymarking
 
@@ -72,11 +70,11 @@ We have 8 tags for disposal
 - 3 stop tags: `q`, `r`, `s` (always in this order)
 - full stop: `S`
 
-Originally modelled in Haskell (+QuickCheck)
+Originally modelled in Haskell (+`QuickCheck`)
 Now in LLVM repo (on a branch), with automatic algorithm selection
 
 Benefits
-===========
+=========
 
 - stop tags allow longer hops while hunting down the framed digits
 - 2-bits at a time
