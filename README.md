@@ -8,6 +8,8 @@ EuroLLVM 2014 &mdash; Edinburgh
 Gabor Greif<br>
 _Weekend LLVM-hobbyist_
 
+![Banner](http://llvm.org/devmtg/2014-04/EuroLLVM2014.jpg)
+
 # The Situation Before 2008
 
 <picture : array of Uses embedded/pointered in User>
