@@ -106,7 +106,7 @@ Questions?
 =========== 
 
 
-Image credits:
+Credits:
 
-+ Nasa
-+ (what else)
++ Nasa (Image)
++ W3C Slidy
