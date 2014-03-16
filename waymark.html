@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='duration' content='60' />
+    <link href="https://github.global.ssl.fastly.net/assets/github-d9c478ed7e87eebc36430a1efc4e84b17e65df06.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-1f57c0abc60be1b966fe0cdd45e4a656a8f8a469.css" media="all" rel="stylesheet" type="text/css" />
+      <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-55976bc637c425207bc6e52d7ac4c125773713de.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-59c1229021d04ba714d869cf0ab18c2ff7a289ab.js" type="text/javascript"></script>
+    <title>EuroLLVM 2014 &mdash; Edinburgh (April 7-8)</title> 
+      <meta name='copyright' 
+       content='Copyright &#169; 2014 Gabor Greif' /> 
+      <link rel='stylesheet' type='text/css' media='screen, projection, print' 
+       href='https://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css' /> 
+      <script src='https://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js' 
+       charset='utf-8' type='text/javascript'></script> 
+       <style type='text/css'> 
+       div.slide h1 {
+         font-size: 2.5em;
+         }
+       </style>
+  </head>
+  <body>
+<div class='slide markdown-body'><h1>
+<a name="eurollvm-2014--edinburgh" class="anchor" href="#eurollvm-2014--edinburgh"></a>EuroLLVM 2014 — Edinburgh</h1>
+
+<p>3-bit Waymarking</p>
+
+<p>(a.k.a. Son of <code>Use</code>-Diet)</p>
+
+<p>Gabor Greif<br><em>Weekend LLVM-hobbyist</em></p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="the-situation-before-2008" class="anchor" href="#the-situation-before-2008"></a>The Situation Before 2008</h1>
+
+<p><code>Use</code> has 4 pointers</p>
+
+<p><a href="https://github-camo.global.ssl.fastly.net/0e8c159d5d90c7729ca8d5ff612cd40f202b64d6/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6767726569662f4575726f4c4c564d2d5761796d61726b696e672f6d61737465722f707265323030382e737667" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/0e8c159d5d90c7729ca8d5ff612cd40f202b64d6/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6767726569662f4575726f4c4c564d2d5761796d61726b696e672f6d61737465722f707265323030382e737667" alt="Before 2008" data-canonical-src="https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/pre2008.svg" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="use-diet" class="anchor" href="#use-diet"></a><code>Use</code>-Diet</h1>
+
+<ul>
+<li>drop pointer to <code>User</code>
+</li>
+<li>make <code>Prev</code> pointer tagged (2-bits, since always 4-byte aligned)</li>
+<li>seen 12% space savings on big C++ programs</li>
+<li>landed  in the LLVM codebase: May 2008</li>
+</ul><p><a href="https://github-camo.global.ssl.fastly.net/ab2e56836e37b30ce1fc407851cb6a9c0dee7426/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6767726569662f4575726f4c4c564d2d5761796d61726b696e672f6d61737465722f6e65772e737667" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/ab2e56836e37b30ce1fc407851cb6a9c0dee7426/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6767726569662f4575726f4c4c564d2d5761796d61726b696e672f6d61737465722f6e65772e737667" alt="New Scheme" data-canonical-src="https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/new.svg" style="max-width:100%;"></a></p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="how-it-works" class="anchor" href="#how-it-works"></a>How it Works</h1>
+
+<p>Employ a <em>framed serial code</em> in consecutive <code>Use</code>s</p>
+
+<ul>
+<li>
+<code>S</code> → full stop</li>
+<li>
+<code>s</code> → stop</li>
+<li>
+<code>0</code>, <code>1</code> → binary digits</li>
+</ul><p>Read off binary digits to obtain distance to <code>User</code></p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="interlude" class="anchor" href="#interlude"></a>Interlude</h1>
+
+<p>:-)</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="the-sacrifice" class="anchor" href="#the-sacrifice"></a>The Sacrifice</h1>
+
+<p>2.5% runtime increase</p>
+
+<p>(but it was worth it!)</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="solution" class="anchor" href="#solution"></a>Solution</h1>
+
+<p>When two feet permit just so much speed, then you have to upgrade to three feet!
+</p>
+
+<p>I really did not mean to do something cruel as this!</p>
+
+<p>But no earthly life-form provides this feature, so...
+</p>
+
+<p>Clearly I was in need of some alien technology!
+</p>
+
+<p>...then I took a page from the book of space exploration and found this gem:
+<a href="https://github-camo.global.ssl.fastly.net/f9312d0fa8afaa817eb681dcad4c7e8ff72e9240/687474703a2f2f7777772e6f757465727370616365756e6976657273652e6f72672f6d656469612f726f636b732d6f6e2d6d6172732e6a7067" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/f9312d0fa8afaa817eb681dcad4c7e8ff72e9240/687474703a2f2f7777772e6f757465727370616365756e6976657273652e6f72672f6d656469612f726f636b732d6f6e2d6d6172732e6a7067" alt="Footprints on Mars" data-canonical-src="http://www.outerspaceuniverse.org/media/rocks-on-mars.jpg" style="max-width:100%;"></a></p>
+
+<p></p>
+
+<p>Alien tricks from Mars! :-)</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="son-of-use-diet-3-bits-encoding" class="anchor" href="#son-of-use-diet-3-bits-encoding"></a>Son of <code>Use</code>-Diet: 3-bits Encoding</h1>
+
+<p>We have 8 tags for disposal</p>
+
+<ul>
+<li>double digits: <code>00</code>, <code>01</code>, <code>10</code>, <code>11</code>
+</li>
+<li>3 stop tags: <code>q</code>, <code>r</code>, <code>s</code> (always in this order)</li>
+<li>full stop: <code>S</code>
+</li>
+</ul><p>Originally modelled in Haskell (+<code>QuickCheck</code>)</p>
+
+<p>Now in LLVM repo (on a branch), with automatic algorithm selection</p>
+
+</div>
+<div class='slide markdown-body'><h1>
+<a name="benefits" class="anchor" href="#benefits"></a>Benefits</h1>
+
+<ul>
+<li>stop tags allow longer hops while hunting down the framed digits</li>
+<li>2-bits at a time</li>
+</ul><p>Comparison</p>
+
+<table>
+<thead><tr>
+<th align="right">tag-bits</th>
+<th align="right">frames</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="right">2</td>
+<td align="right"><code>1s100000s11010s10100s1111s1010s110s11s1S</code></td>
+</tr>
+<tr>
+<td align="right">acc.</td>
+<td align="right"><code>87CBA9876BA9876A987659876587654654343221</code></td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td align="right"><code>rs203qrs131qrs113qrs101qrs30qrs13qrs3rsS</code></td>
+</tr>
+<tr>
+<td align="right">acc.</td>
+<td align="right"><code>5566655566655566655555544455444443332221</code></td>
+</tr>
+<tr>
+<td align="right">Δ</td>
+<td align="right"><code>3265443205443204332104332132210211011000</code></td>
+</tr>
+</tbody>
+</table></div>
+<div class='slide markdown-body'><h1>
+<a name="further-opportunities" class="anchor" href="#further-opportunities"></a>Further Opportunities</h1>
+
+<ul>
+<li>unroll tag initialisation loops</li>
+<li>distance relative to stopped frame (microoptimization)</li>
+<li>
+<code>rol</code> (rotate) instructions with condition flags</li>
+<li>examining resultant assembly (on all archs!)</li>
+</ul></div>
+<div class='slide markdown-body'><h1>
+<a name="questions" class="anchor" href="#questions"></a>Questions?</h1>
+
+<p>Image credits:</p>
+
+<ul>
+<li>Nasa</li>
+<li>(what else)</li>
+</ul>
+</div>
+  </body>
+</html>
