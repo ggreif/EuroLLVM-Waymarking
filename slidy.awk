@@ -14,9 +14,9 @@ BEGIN {
 head && /<\/head/ {
   ## add slidy infrastructure
   ##
-  print "    <title>Seminar &mdash; Opetopes</title> "
+  print "    <title>EuroLLVM 2014 &mdash; Edinburgh (April 7-8)</title> "
   print "      <meta name='copyright' "
-  print "       content='Copyright &#169; 2013 Gabor Greif' /> "
+  print "       content='Copyright &#169; 2014 Gabor Greif' /> "
   print "      <link rel='stylesheet' type='text/css' media='screen, projection, print' "
   print "       href='https://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css' /> "
   print "      <script src='https://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js' "
