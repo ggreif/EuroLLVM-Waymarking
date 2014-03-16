@@ -15,6 +15,9 @@ head && /<\/head/ {
   ## add slidy infrastructure
   ##
   print "    <title>EuroLLVM 2014 &mdash; Edinburgh (April 7-8)</title> "
+  print "      <meta name='author' content='Gabor Greif' /> "
+  print "      <meta name='keywords' content='LLVM,waymarking,conference,2014,Edinburgh' /> "
+  print "      <meta name='generator' content='make'> "
   print "      <meta name='copyright' "
   print "       content='Copyright &#169; 2014 Gabor Greif' /> "
   print "      <link rel='stylesheet' type='text/css' media='screen, projection, print' "
