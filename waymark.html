@@ -3,10 +3,10 @@
   <head>
     <meta charset='utf-8'>
     <meta name='duration' content='5' />
-    <link href="https://github.global.ssl.fastly.net/assets/github-d9c478ed7e87eebc36430a1efc4e84b17e65df06.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://github.global.ssl.fastly.net/assets/github2-1f57c0abc60be1b966fe0cdd45e4a656a8f8a469.css" media="all" rel="stylesheet" type="text/css" />
-      <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-55976bc637c425207bc6e52d7ac4c125773713de.js" type="text/javascript"></script>
-      <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-59c1229021d04ba714d869cf0ab18c2ff7a289ab.js" type="text/javascript"></script>
+    <link href="https://github.global.ssl.fastly.net/assets/github-b4baae9c06716bcd0a8068e3030607851f19b980.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-4940da06adce480cfcfba223624a2b2f09e8f90f.css" media="all" rel="stylesheet" type="text/css" />
+        <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-4ffe0645461d6fd51485ee3e555a732ee7075743.js" type="text/javascript"></script>
+        <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-8569770199d7c3e78f612511392c027e9a5ccc0d.js" type="text/javascript"></script>
     <title>EuroLLVM 2014 &mdash; Edinburgh (April 7-8)</title> 
       <meta name='author' content='Gabor Greif' /> 
       <meta name='keywords' content='LLVM,waymarking,conference,2014,Edinburgh' /> 
@@ -36,7 +36,7 @@
 
 <p>Gabor Greif<br><em>Weekend LLVM-hobbyist</em></p>
 
-<p><a href="https://github-camo.global.ssl.fastly.net/e402aab66b95d3229ed7ebe91f061355d1fd46aa/687474703a2f2f6c6c766d2e6f72672f6465766d74672f323031342d30342f4575726f4c4c564d323031342e6a7067" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/e402aab66b95d3229ed7ebe91f061355d1fd46aa/687474703a2f2f6c6c766d2e6f72672f6465766d74672f323031342d30342f4575726f4c4c564d323031342e6a7067" alt="Banner" data-canonical-src="http://llvm.org/devmtg/2014-04/EuroLLVM2014.jpg" style="max-width:100%;"></a></p>
+<p><a href="https://camo.githubusercontent.com/e402aab66b95d3229ed7ebe91f061355d1fd46aa/687474703a2f2f6c6c766d2e6f72672f6465766d74672f323031342d30342f4575726f4c4c564d323031342e6a7067" target="_blank"><img src="https://camo.githubusercontent.com/e402aab66b95d3229ed7ebe91f061355d1fd46aa/687474703a2f2f6c6c766d2e6f72672f6465766d74672f323031342d30342f4575726f4c4c564d323031342e6a7067" alt="Banner" data-canonical-src="http://llvm.org/devmtg/2014-04/EuroLLVM2014.jpg" style="max-width:100%;"></a></p>
 
 </div>
 <div class='slide markdown-body'><h1>
@@ -44,7 +44,7 @@
 
 <p><code>Use</code> has 4 pointers</p>
 
-<p><a href="https://github-camo.global.ssl.fastly.net/0e8c159d5d90c7729ca8d5ff612cd40f202b64d6/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6767726569662f4575726f4c4c564d2d5761796d61726b696e672f6d61737465722f707265323030382e737667" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/0e8c159d5d90c7729ca8d5ff612cd40f202b64d6/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6767726569662f4575726f4c4c564d2d5761796d61726b696e672f6d61737465722f707265323030382e737667" alt="Before 2008" data-canonical-src="https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/pre2008.svg" style="max-width:100%;"></a></p>
+<p><a href="https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/pre2008.svg" target="_blank"><img src="https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/pre2008.svg" alt="Before 2008" style="max-width:100%;"></a></p>
 
 </div>
 <div class='slide markdown-body'><h1>
@@ -53,10 +53,11 @@
 <ul>
 <li>drop pointer to <code>User</code>
 </li>
+<li>allocate <code>Use</code>s before <code>User</code> in memory</li>
 <li>make <code>Prev</code> pointer tagged (2-bits, since always 4-byte aligned)</li>
 <li>seen 12% space savings on big C++ programs</li>
 <li>landed  in the LLVM codebase: May 2008</li>
-</ul><p><a href="https://github-camo.global.ssl.fastly.net/ab2e56836e37b30ce1fc407851cb6a9c0dee7426/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6767726569662f4575726f4c4c564d2d5761796d61726b696e672f6d61737465722f6e65772e737667" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/ab2e56836e37b30ce1fc407851cb6a9c0dee7426/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f6767726569662f4575726f4c4c564d2d5761796d61726b696e672f6d61737465722f6e65772e737667" alt="New Scheme" data-canonical-src="https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/new.svg" style="max-width:100%;"></a></p>
+</ul><p><a href="https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/new.svg" target="_blank"><img src="https://raw.githubusercontent.com/ggreif/EuroLLVM-Waymarking/master/new.svg" alt="New Scheme" style="max-width:100%;"></a></p>
 
 </div>
 <div class='slide markdown-body'><h1>
@@ -103,7 +104,7 @@
 </p>
 
 <p>...then I took a page from the book of space exploration and found this gem:
-<a href="https://github-camo.global.ssl.fastly.net/f9312d0fa8afaa817eb681dcad4c7e8ff72e9240/687474703a2f2f7777772e6f757465727370616365756e6976657273652e6f72672f6d656469612f726f636b732d6f6e2d6d6172732e6a7067" target="_blank"><img src="https://github-camo.global.ssl.fastly.net/f9312d0fa8afaa817eb681dcad4c7e8ff72e9240/687474703a2f2f7777772e6f757465727370616365756e6976657273652e6f72672f6d656469612f726f636b732d6f6e2d6d6172732e6a7067" alt="Footprints on Mars" data-canonical-src="http://www.outerspaceuniverse.org/media/rocks-on-mars.jpg" style="max-width:100%;"></a></p>
+<a href="https://camo.githubusercontent.com/f9312d0fa8afaa817eb681dcad4c7e8ff72e9240/687474703a2f2f7777772e6f757465727370616365756e6976657273652e6f72672f6d656469612f726f636b732d6f6e2d6d6172732e6a7067" target="_blank"><img src="https://camo.githubusercontent.com/f9312d0fa8afaa817eb681dcad4c7e8ff72e9240/687474703a2f2f7777772e6f757465727370616365756e6976657273652e6f72672f6d656469612f726f636b732d6f6e2d6d6172732e6a7067" alt="Footprints on Mars" data-canonical-src="http://www.outerspaceuniverse.org/media/rocks-on-mars.jpg" style="max-width:100%;"></a></p>
 
 <p></p>
 
