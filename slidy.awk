@@ -39,6 +39,7 @@ head && /<\/head/ {
 }
 
 head && (/text\/css/ || /text\/javascript/) {
+  sub(/raw.githubusercontent.com/, "rawgithub.com")
   print
   next
 }
