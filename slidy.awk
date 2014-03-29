@@ -39,7 +39,6 @@ head && /<\/head/ {
 }
 
 head && (/text\/css/ || /text\/javascript/) {
-  sub(/raw.githubusercontent.com/, "rawgithub.com")
   print
   next
 }
@@ -74,6 +73,7 @@ inside && /<h2>/ {
 }
 
 inside {
+  sub(/raw.githubusercontent.com/, "rawgithub.com")
   print
 }
 
