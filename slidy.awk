@@ -80,6 +80,13 @@ inside && /"\/ggreif\// {
   next
 }
 
+/<p>/ {
+  sub(/<p>When two feet/, "<p class='incremental'>When two feet")
+  sub(/<p>I really/, "<p class='incremental'>I really")
+  sub(/<p>But no/, "<p class='incremental'>But no")
+  sub(/<p>Clearly I/, "<p class='incremental'>Clearly I")
+}
+
 inside {
   gsub(/raw\.githubusercontent\.com/, "rawgithub.com")
   print
