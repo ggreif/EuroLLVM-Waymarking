@@ -72,8 +72,14 @@ inside && /<h2>/ {
   next
 }
 
-inside {
+inside && /"\/ggreif\// {
   gsub(/"\/ggreif\//, "\"https://raw.githubusercontent.com/ggreif/")
+  gsub(/blob\/master/, "master")
+  print
+  next
+}
+
+inside {
   gsub(/raw\.githubusercontent\.com/, "rawgithub.com")
   print
 }
