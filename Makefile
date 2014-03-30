@@ -11,6 +11,6 @@ clean:
 	rm -f waymark.raw
 
 pull:
-	git pull --rebase
+	- git pull --rebase
 
 regenerate: clean pull waymark.html
