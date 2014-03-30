@@ -62,7 +62,7 @@ Clearly I was in need of some alien technology!
 
 ...then I took a page from the book of space exploration and found this gem:
 <INCREMENTAL>
-![Footprints on Mars](http://www.outerspaceuniverse.org/media/rocks-on-mars.jpg)
+![Footprints on Mars](mars-steps.jpg)
 
 <photoshopped Mars image with foot traces (three of them)>
 
