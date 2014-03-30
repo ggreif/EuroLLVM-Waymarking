@@ -3,7 +3,7 @@
 
 waymark.html: waymark.raw slidy.awk
 	awk -f slidy.awk $< > $@
-	open -a Firefox $@
+	open -a Firefox $@ || git diff $@
 
 .PHONY: clean pull regenerate
 
