@@ -85,7 +85,8 @@ inside && /"\/ggreif\// {
   sub(/<p>I really/, "<p class='incremental'>I really")
   sub(/<p>But no/, "<p class='incremental'>But no")
   sub(/<p>Clearly I/, "<p class='incremental'>Clearly I")
-  sub(/<p>...then I took/, "<p class='incremental'>...then I took")
+  sub(/<p>...then I took/, "<p class='incremental'>\\&hellip;then I took")
+  sub(/<p>Alien tricks/, "<p class='incremental'>Alien tricks")
 }
 
 inside {
