@@ -84,6 +84,11 @@ inside && /"\/ggreif\// {
   sub(/<p>/, "<p class='incremental'>")
 }
 
+/<p>/ && /cockroach/ {
+    error("hhhH")
+  sub(/<p>/, "<p class='incremental'>")
+}
+
 /<p>/ {
   sub(/<p>When two feet/, "<p class='incremental'>When two feet")
   sub(/<p>I really/, "<p class='incremental'>I really")
