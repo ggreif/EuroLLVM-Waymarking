@@ -73,8 +73,9 @@ inside && /<h2>/ {
 }
 
 inside && /"\/ggreif\// {
-  gsub(/"\/ggreif\//, "\"https://raw.githubusercontent.com/ggreif/")
-  gsub(/blob\/master/, "master")
+  gsub(/"\/ggreif\//, "\"https://github.com/ggreif/")
+  gsub(/blob\/master/, "raw/master")
+  #gsub(/https:\/\/github.com\/ggreif\/EuroLLVM-Waymarking\/master\//, "")
   print
   next
 }
