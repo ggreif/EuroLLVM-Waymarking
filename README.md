@@ -49,22 +49,20 @@ Read off binary digits to obtain distance to `User`
 # Solution
 
 When two feet permit just so much speed, then you have to upgrade to three feet!
-<INCREMENTAL>
+
 <Photo of giant ant sawed into half>
 
 I really did not mean to do something cruel as this!
 
 But no earthly life-form provides this feature, so...
-<INCREMENTAL>
+
+# Solution (contd.)
 
 Clearly I was in need of some alien technology!
-<INCREMENTAL>
 
 ...then I took a page from the book of space exploration and found this gem:
-<INCREMENTAL>
-![Footprints on Mars](mars-steps.jpg)
 
-<photoshopped Mars image with foot traces (three of them)>
+![Footprints on Mars](mars-steps.jpg)
 
 Alien tricks from Mars! :-)
 
