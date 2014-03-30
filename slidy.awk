@@ -73,6 +73,7 @@ inside && /<h2>/ {
 }
 
 inside {
+  gsub(/"\/ggreif\//, "\"https://raw.githubusercontent.com/ggreif/")
   gsub(/raw\.githubusercontent\.com/, "rawgithub.com")
   print
 }
