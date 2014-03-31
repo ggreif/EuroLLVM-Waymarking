@@ -68,7 +68,6 @@ inside && /<p>/ && (/sawed-cockroach\.png/ || /mars-steps\.jpg/) {
   sub(/<p>/, "<p class='incremental'>")
 }
 
-
 inside && /<h2>/ {
   if (needs_close_div) sub(/<h2>/, "</div>\n<h2>")
   sub(/<h2>/, "<div class='slide markdown-body'><h2>")
@@ -85,16 +84,7 @@ inside && /"\/ggreif\// {
   next
 }
 
-#/<p>/ && /mars\-steps\.jpg/ {
-#  sub(/<p>/, "<p class='incremental'>")
-#}
-
-/<p>/ && /sawed-cockroach/ {
-    error("hhhH")
-  sub(/<p>/, "<p class='incremental'>")
-}
-
-/<p>/ {
+inside && /<p>/ {
   sub(/<p>When two feet/, "<p class='incremental'>When two feet")
   sub(/<p>I really/, "<p class='incremental'>I really")
   sub(/<p>But no/, "<p class='incremental'>But no")
