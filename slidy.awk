@@ -3,7 +3,7 @@ BEGIN {
   print "<html>"
   print "  <head>"
   print "    <meta charset='utf-8'>"
-  print "    <meta name='duration' content='5' />"
+  print "    <meta name='duration' content='10' />"
   head = 1
 }
 
