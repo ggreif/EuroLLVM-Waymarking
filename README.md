@@ -105,7 +105,7 @@ Comparison
 - `rol` (rotate) instructions with condition flags
 - examining resultant assembly (on all archs!)
 
-Questions?
+Questions?  &mdash; or just ask me later
 =========== 
 
 
