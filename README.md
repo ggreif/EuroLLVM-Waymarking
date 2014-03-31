@@ -50,7 +50,7 @@ Read off binary digits to obtain distance to `User`
 
 When two feet permit just so much speed, then you have to upgrade to three feet!
 
-![Photo cockroach sawed into half](sawed-cockroach.png)
+![Photo cockroach sawed into half](sawed-cockroach.jpg)
 
 I really did not mean to do something cruel as this!
 
