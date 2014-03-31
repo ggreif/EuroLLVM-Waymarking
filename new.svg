@@ -8,8 +8,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="571.39203"
-   height="396.45129"
+   width="575.7016"
+   height="418.58182"
    id="svg2985"
    version="1.1"
    inkscape:version="0.48.4 r9943 custom"
@@ -19,7 +19,7 @@
      y="0"
      xlink:href="#rect4466"
      id="use4476"
-     transform="matrix(-1,0,0,-1,377.80806,401.97392)"
+     transform="matrix(-1,0,0,-1,386.39874,446.26254)"
      width="640"
      height="480" />
   <metadata
@@ -47,10 +47,10 @@
      id="namedview3004"
      showgrid="false"
      inkscape:zoom="1.571875"
-     inkscape:cx="285.92016"
-     inkscape:cy="203.6224"
+     inkscape:cx="290.2155"
+     inkscape:cy="203.60861"
      inkscape:window-x="463"
-     inkscape:window-y="111"
+     inkscape:window-y="89"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2985"
      fit-margin-top="10"
@@ -59,12 +59,12 @@
      fit-margin-left="20" />
   <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
   <rect
-     style="fill:url(#linearGradient4009);fill-opacity:1"
+     style="fill:url(#linearGradient3042);fill-opacity:1"
      id="rect4466"
      width="54.672646"
      height="104.46636"
-     x="-98.21344"
-     y="-253.22015"
+     x="-102.50877"
+     y="-275.36447"
      transform="scale(-1,-1)" />
   <defs
      id="defs2987">
@@ -244,9 +244,9 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4468"
-       id="linearGradient4009"
+       id="linearGradient3042"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-150.44663,-464.59236)"
+       gradientTransform="translate(-154.74197,-486.73667)"
        x1="52.233185"
        y1="263.60538"
        x2="106.90583"
@@ -254,29 +254,29 @@
   </defs>
   <rect
      style="fill:#ff0000;stroke:#000000;stroke-width:5"
-     x="137.49251"
-     y="12.5"
+     x="141.78784"
+     y="34.64431"
      width="180"
      height="60"
      id="svg_1" />
   <text
      style="font-size:24px;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0;font-family:Cursive"
-     x="180.36244"
-     y="58.571754"
+     x="184.65778"
+     y="80.716064"
      id="svg_2"
      font-size="24"
      xml:space="preserve">Value</text>
   <rect
      style="fill:#7f7f7f;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     x="237.636"
-     y="24.387901"
+     x="241.93134"
+     y="46.532211"
      width="68"
      height="25"
      id="svg_3" />
   <text
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace"
-     x="268.13586"
-     y="40.584267"
+     x="272.43121"
+     y="62.728577"
      id="svg_4"
      font-size="24"
      xml:space="preserve">Uses</text>
@@ -284,59 +284,59 @@
      id="rect3793"
      height="105.07423"
      width="180"
-     y="148.65512"
-     x="98.944397"
+     y="170.79944"
+     x="103.23973"
      style="fill:#ccffaa;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      font-size="24"
      id="text3795"
-     y="194.21506"
-     x="132.90778"
+     y="216.35938"
+     x="137.20311"
      style="font-size:24px;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0;font-family:Cursive">Use</text>
   <rect
      id="rect3797"
      height="25"
      width="68"
-     y="188.40555"
-     x="193.92311"
+     y="210.54987"
+     x="198.21844"
      style="fill:#d4aa00;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      font-size="24"
      id="text3799"
-     y="205.74991"
-     x="220.97789"
+     y="227.89423"
+     x="225.27322"
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace">Prev</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
-     d="M 297.39774,36.00791 103.22161,142.11465"
+     d="m 301.69308,58.152221 c 0,0 -21.39104,-31.285374 -59.55328,-40.465517 C 53.766921,-27.627459 104.97222,164.25896 104.97222,164.25896"
      id="path3801"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
+     sodipodi:nodetypes="csc" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
-     d="M 251.32555,200.08774 237.06649,53.103254"
+     d="m 255.62089,222.23205 c 0,0 14.87308,-23.78215 15.77305,-37.22982 2.53277,-37.84512 -30.03211,-109.754665 -30.03211,-109.754665"
      id="path4633"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cc" />
+     sodipodi:nodetypes="cac" />
   <rect
      style="fill:#7f7f7f;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none"
-     x="193.92311"
-     y="221.9458"
+     x="198.21844"
+     y="244.09012"
      width="68"
      height="25"
      id="rect5015" />
   <text
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace"
-     x="220.97789"
-     y="239.29016"
+     x="225.27322"
+     y="261.43448"
      id="text5017"
      font-size="24"
      xml:space="preserve">Next</text>
   <path
      style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#InfiniteLineStart);marker-end:url(#InfiniteLineEnd)"
-     d="m 63.630487,148.61027 251.408073,0"
+     d="m 67.925823,170.75458 251.408077,0"
      id="path5019"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
@@ -345,68 +345,68 @@
      y="0"
      xlink:href="#path5019"
      id="use5426"
-     transform="translate(-0.43048629,105.18386)"
+     transform="translate(-0.43048625,105.18386)"
      width="640"
      height="480" />
   <rect
      id="rect5428"
      height="103.28155"
      width="180"
-     y="148.66711"
-     x="379.39206"
+     y="170.81143"
+     x="383.68741"
      style="fill:#5555ff;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      font-size="24"
      id="text5430"
-     y="194.73886"
-     x="422.26202"
+     y="216.88318"
+     x="426.55737"
      style="font-size:24px;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0;font-family:Cursive">User</text>
   <rect
      id="rect5432"
      height="25"
      width="68"
-     y="160.55502"
-     x="479.53555"
+     y="182.69934"
+     x="483.8309"
      style="fill:#7f7f7f;stroke:#000000;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none" />
   <text
      xml:space="preserve"
      font-size="24"
      id="text5434"
-     y="177.89935"
-     x="520.36725"
+     y="200.04367"
+     x="524.6626"
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace">Uses</text>
   <path
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path4264"
-     d="m 250.75156,233.62799 15.49775,87.3231"
+     d="m 255.0469,255.7723 15.49775,87.3231"
      style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM);marker-mid:none;marker-end:url(#Arrow1Mend)" />
   <rect
      style="fill:#7f7f7f;stroke:#000000;stroke-width:2.87466407;stroke-miterlimit:4;stroke-dasharray:none"
-     x="193.86043"
-     y="155.08392"
+     x="198.15576"
+     y="177.22824"
      width="62.125336"
      height="25.125336"
      id="rect4478" />
   <text
      style="font-size:15.85713577px;text-anchor:middle;fill:#ffffff;stroke:#000000;stroke-width:0;font-family:Monospace"
-     x="220.40504"
-     y="172.49094"
+     x="224.70038"
+     y="194.63525"
      id="text4480"
      font-size="24"
      xml:space="preserve">Val</text>
   <rect
      style="fill:#ccffaa;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
-     x="268.04355"
-     y="327.9332"
+     x="272.3389"
+     y="350.07751"
      width="108.99855"
      height="56.518105"
      id="rect4486" />
   <text
      style="font-size:24px;text-anchor:middle;fill:#000000;stroke:#000000;stroke-width:0;font-family:Cursive"
-     x="321.21793"
-     y="364.25479"
+     x="325.51328"
+     y="386.39911"
      id="text4488"
      font-size="24"
      xml:space="preserve">Use…</text>
@@ -414,11 +414,11 @@
      sodipodi:nodetypes="cc"
      inkscape:connector-curvature="0"
      id="path4490"
-     d="M 241.78281,166.37005 138.45814,78.550574"
+     d="M 246.07815,188.51436 142.75348,100.69488"
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)" />
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM);marker-end:url(#Arrow1Mend)"
-     d="m 492.43887,170.82333 c 0,0 -83.18645,94.91189 -161.40389,115.77217 C 251.95209,307.6866 17.583385,263.04361 17.583385,263.04361"
+     d="m 496.73421,192.96764 c 0,0 -83.18645,94.91189 -161.40389,115.77217 -79.08289,21.0911 -313.451599,-23.55189 -313.451599,-23.55189"
      id="path4011"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="csc" />
