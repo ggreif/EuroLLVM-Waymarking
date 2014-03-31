@@ -68,7 +68,9 @@ Alien tricks from Mars! :-)
 
 # Son of `Use`-Diet: 3-bits Encoding
 
-We have 8 tags for disposal
+On today's predominantly 64-bit platforms, pointers are 8-byte aligned
+
+We have 8 distinct tags for disposal
 
 - double digits: `00`, `01`, `10`, `11`
 - 3 stop tags: `q`, `r`, `s` (always in this order)
