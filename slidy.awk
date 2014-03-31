@@ -66,6 +66,7 @@ inside && /<h1>/ {
 
 inside && /<p>/ && (/sawed-cockroach\.png/ || /mars-steps\.jpg/) {
   sub(/<p>/, "<p class='incremental'>")
+  sub(/100%/, "60%")
 }
 
 inside && /<h2>/ {
